@@ -1,0 +1,57 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* CSS styles for the heading */
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* CSS styles for the list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+}
+
+/* CSS styles for the list items */
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS styles for the links */
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+/* CSS styles for the create todo link */
+.create-todo {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* CSS styles for the create todo link on hover */
+.create-todo:hover {
+    background-color: #23527c;
+}
